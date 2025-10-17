@@ -1,21 +1,17 @@
-This is my personal Spring Boot starter project, set up with:
+Spring Boot + Elasticsearch Product Search Application
 
-Spring Boot 3.5.3 for the latest stable framework features
+Developed a full-stack Java Spring Boot application integrating Elasticsearch for fast, scalable product search.
 
-Java 21 compatibility to leverage the newest Java language improvements
+Implemented CRUD operations and full-text search with REST APIs (POST /products, GET /products/search).
 
-A clean Maven setup with essential dependencies:
+Designed Elasticsearch indices for optimized search and filtering by product attributes.
 
-spring-boot-starter-web for building web applications and REST APIs
+Used Spring Data Elasticsearch for repository abstraction and simplified interaction with Elasticsearch.
 
-spring-boot-starter-test for robust testing support
+Enabled real-time search and aggregation to handle large product datasets efficiently.
 
-Configured Maven Compiler Plugin targeting Java 21 bytecode
+Built clean architecture with controller, service, repository layers and Lombok for reducing boilerplate.
 
-Spring Boot Maven Plugin for easy build and run commands
+Tested APIs with Postman and curl, ensuring reliable indexing and search functionality.
 
-This blank template helps me quickly bootstrap any new Spring Boot backend application with modern Java, ensuring a smooth development experience.
-
-
-https://ahsumon7.github.io/sumon/
-# ElasticSearch_SpringBoot
+Deployed locally using Docker for Elasticsearch and Kibana for visualization and monitoring.
