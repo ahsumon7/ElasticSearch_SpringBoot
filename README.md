@@ -1,17 +1,13 @@
-Spring Boot + Elasticsearch Product Search Application
+Spring Boot & Elasticsearch Product Search Application
 
-Developed a full-stack Java Spring Boot application integrating Elasticsearch for fast, scalable product search.
+Built a scalable Java Spring Boot application integrated with Elasticsearch for lightning-fast product search.
 
-Implemented CRUD operations and full-text search with REST APIs (POST /products, GET /products/search).
+Implemented CRUD operations and full-text search APIs (POST /products, GET /products/search) for dynamic product management.
 
-Designed Elasticsearch indices for optimized search and filtering by product attributes.
+Designed optimized Elasticsearch indices to enable efficient filtering, aggregation, and real-time search over large datasets.
 
-Used Spring Data Elasticsearch for repository abstraction and simplified interaction with Elasticsearch.
+Leveraged Spring Data Elasticsearch for seamless repository integration and Lombok to reduce boilerplate code.
 
-Enabled real-time search and aggregation to handle large product datasets efficiently.
+Ensured application reliability with Postman and curl testing, and deployed using Docker for Elasticsearch and Kibana visualization.
 
-Built clean architecture with controller, service, repository layers and Lombok for reducing boilerplate.
-
-Tested APIs with Postman and curl, ensuring reliable indexing and search functionality.
-
-Deployed locally using Docker for Elasticsearch and Kibana for visualization and monitoring.
+Followed a clean architecture pattern with controller, service, and repository layers for maintainable and extendable code.
